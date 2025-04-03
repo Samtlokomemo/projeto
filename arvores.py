@@ -316,7 +316,7 @@ def avlTree(add_numbers=None):
 
 """# Arvore B"""
 
-def bTree(grau = 2, add_num = None, search_num = None):
+def bTree(add_num = None, search_num = None, grau = 2):
     class BTreeNode:
         def __init__(self, leaf=False):
             self.keys = []
@@ -621,4 +621,4 @@ def fiboTree(num):
 #fiboTree(8)
 #bstTree(19, [19, 10, 21])
 #avlTree([1, 2, 55])
-#bTree(2, 13, 5)
+#bTree(13, 5)
